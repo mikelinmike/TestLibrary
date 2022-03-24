@@ -44,3 +44,7 @@ public class LibraryTest2{
         })
     }
 }
+
+class MyFitnessDevice: FitnessDevice{
+    
+}
