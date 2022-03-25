@@ -4,11 +4,11 @@ platform :ios, '9.0'
 
 target 'TestLibrary_Example' do
   pod 'TestLibrary', :path => '../'
-  #pod 'PhysData', :git => 'git@gitlab.com:wondercise_sys/wondercise-ios-phys-data.git', :branch => 'master'
-  #pod 'FitnessDevice', :git => 'git@gitlab.com:wondercise_sys/wondercise-ios-fitness-device.git', :branch => 'master'
+  pod 'PhysData', :git => 'git@gitlab.com:wondercise_sys/wondercise-ios-phys-data.git', :branch => 'master'
+  pod 'FitnessDevice', :git => 'git@gitlab.com:wondercise_sys/wondercise-ios-fitness-device.git', :branch => 'master'
   pod 'SwiftyJSON', '~> 4.0'
   pod 'Alamofire', '~> 4.7'
-  pod 'RxSwift', '5.1.1'
+  #pod 'RxSwift', '5.1.1'
 
   target 'TestLibrary_Tests' do
     inherit! :search_paths

@@ -40,8 +40,8 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
     s.dependency 'RxSwift', '5.1.1'
-  # s.dependency 'PhysData'
-  # s.dependency 'FitnessDevice'
+    s.dependency 'PhysData'
+    s.dependency 'FitnessDevice'
     s.dependency 'Alamofire', '~> 4.7'
     s.dependency 'SwiftyJSON', '~> 4.0'
 

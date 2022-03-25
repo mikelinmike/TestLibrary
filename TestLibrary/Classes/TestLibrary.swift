@@ -12,6 +12,8 @@ import RxSwift
 
 open class LibraryTest1{
     
+    public init(){}
+    
     open func showTest1() -> Single<Int>{
         return Single<Int>.create(subscribe: { obs in
             obs(.success(500))
@@ -29,6 +31,8 @@ open class LibraryTest1{
 
 
 public class LibraryTest2{
+    
+    public init(){}
     
     open func showTest1() -> Single<Int>{
         return Single<Int>.create(subscribe: { obs in
