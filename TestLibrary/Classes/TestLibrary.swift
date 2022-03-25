@@ -7,7 +7,8 @@
 //
 
 import Foundation
-//import FitnessDevice
+import FitnessDevice
+import PhysData
 import RxSwift
 
 open class LibraryTest1{
@@ -49,6 +50,9 @@ public class LibraryTest2{
     }
 }
 
-//class MyFitnessDevice: FitnessDevice{
-//
-//}
+open class MyFitnessDevice: FitnessDevice{
+    
+    public func MyTestFunction(){
+        print("hello world")
+    }
+}
