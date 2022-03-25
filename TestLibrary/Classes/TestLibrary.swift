@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import FitnessDevice
+//import FitnessDevice
 import RxSwift
 
 open class LibraryTest1{
@@ -45,6 +45,6 @@ public class LibraryTest2{
     }
 }
 
-class MyFitnessDevice: FitnessDevice{
-    
-}
+//class MyFitnessDevice: FitnessDevice{
+//
+//}
